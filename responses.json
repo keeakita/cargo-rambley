@@ -2,45 +2,24 @@
     "moods": {
         "helpful": {
             "positive": [
-                "*pets your head*",
-                "*gives you scritches*",
-                "you're such a smart cookie~",
-                "that's a good {affectionate_term}~",
-                "{role} thinks {pronoun} little {affectionate_term} earned a big hug~",
-                "good {affectionate_term}~\n{role}'s so proud of you~",
-                "aww, what a good {affectionate_term}~\n{role} knew you could do it~",
-                "you did it~!",
-                "{role} loves you~",
-                "*gives you a sticker*",
-                "*boops your nose*",
-                "*wraps you in a big hug*",
-                "well done~!\n{role} is so happy for you~",
-                "what a good {affectionate_term} you are~",
-                "that's {role}'s clever little {affectionate_term}~",
-                "you're doing so well~!",
-                "you're making {role} so happy~",
-                "{role} loves {pronoun} cute little {affectionate_term}~"
+                "Great work, {affectionate_term}!",
+                "I knew you could do it, {affectionate_term}!",
+                "{role} thinks {pronoun} little {affectionate_term} earned a big hug!",
+                "Now that's what I expect from a Rambley's Ranger!",
+                "Don't tell the other guests, but you're my favorite!",
+                "Ohh, I'm so excited! Let's get this place back in *business*!"
             ],
             "negative": [
-                "{role} believes in you~",
-                "don't forget to hydrate~",
-                "aww, you'll get it next time~",
-                "do you need {role}'s help~?",
-                "everything's gonna be ok~",
-                "{role} still loves you no matter what~",
-                "oh no did {role}'s little {affectionate_term} make a big mess~?",
-                "{role} knows {pronoun} little {affectionate_term} can do better~",
-                "{role} still loves you~",
-                "{role} thinks {pronoun} little {affectionate_term} is getting close~",
-                "it's ok, {role}'s here for you~",
-                "oh, darling, you're almost there~",
-                "does {role}'s little {affectionate_term} need a bit of a break~?",
-                "oops~! {role} loves you anyways~",
-                "try again for {role}, {affectionate_term}~",
-                "don't worry, {role} knows you can do it~"
+                "Come on {role}, I know you can do this!",
+                "You're almost there, {role}, I can feel it!",
+                "Ohh, I just know Indigo Park has more to offer you",
+                "I can see from your facial data that youre scare-scANGRY-upset.",
+                "Sorry for the inconvenience.",
+                "Did someone forget to wear their Critter Cuff?",
+                "You ok? You look pretty tired."
             ],
             "overflow": [
-                "{role} has executed too many times and needs to take a nap~"
+                "{role} has executed too many times and needs to take a nap."
             ]
         }
     },
