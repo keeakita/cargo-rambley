@@ -1,23 +1,21 @@
-# `cargo-mommy`
+# `cargo-rambley`
 
-[![crates.io](https://img.shields.io/crates/v/cargo-mommy.svg)](https://crates.io/crates/cargo-mommy)
-[![Rust CI](https://github.com/Gankra/cargo-mommy/workflows/Rust/badge.svg?branch=main)](https://github.com/Gankra/cargo-mommy/actions/workflows/ci.yml)
+Hey there buddy! I heard you need some help writing code! Don't worry: your pal Rambley happens to be an expert!
 
-
-
-Mommy's here to support you when running cargo~ ❤️
+This is a fork of [cargo-mommy](https://faultlore.com/cargo-mommy/).
 
 # Installation
 
-You can `cargo install cargo-mommy`, [see the website for more options](https://faultlore.com/cargo-mommy/)
+TODO
+<!-- You can `cargo install cargo-mommy`, [see the website for more options](https://faultlore.com/cargo-mommy/) -->
 
 
 # Usage
 
-Run whatever cargo command you would normally but add mommy after cargo~
+Run whatever cargo command you would normally but add rambley after cargo!
 
 ```
-cargo mommy check
+cargo rambley check
 
     Checking bappy-script v0.1.3
 error: expected one of `!` or `::`, found `passes`
@@ -27,39 +25,36 @@ error: expected one of `!` or `::`, found `passes`
    |      ^^^^^^ expected one of `!` or `::`
 
 error: could not compile `bappy-script` (bin "bappy-script") due to previous error
-mommy knows her little girl can do better~ 💞
+Now that's what I expect from a Rambley's Ranger! 🦝
 ```
 
-[See the docs for more options](https://faultlore.com/cargo-mommy/book/)
+[There are upstream docs](https://faultlore.com/cargo-mommy/book/). Everything should be mostly the same, with some defaults changed.
 
 
 # Configuration
 
-Mommy will read the following environment variables to make her messages better for you~ ❤️
+Rambley will read the following environment variables to you the best possible park experience:
 
-* `CARGO_MOMMYS_LITTLE` - what to call you~ (default: "girl")
-* `CARGO_MOMMYS_PRONOUNS` - what pronouns mommy will use for themself~ (default: "her")
-* `CARGO_MOMMYS_ROLES` - what role mommy will have~ (default "mommy")
-* `CARGO_MOMMYS_EMOTES` - what emotes mommy will have~ (default "❤️/💖/💗/💓/💞")
-* `CARGO_MOMMYS_MOODS` - picks the set of possible responses~ (default: "chill", possible values "chill", "ominous")
+* `CARGO_RAMBLEYS_LITTLE` - what to call you (default: "buddy")
+* `CARGO_RAMBLEYS_PRONOUNS` - what pronouns Rambley will use for themself (default: "his")
+* `CARGO_RAMBLEYS_ROLES` - what role Rambley will have (default "Rambley")
+* `CARGO_RAMBLEYS_EMOTES` - what emotes Rambley will have (default "🦝/🎢/🎡/🎠/🎟️")
+* `CARGO_RAMBLEYS_MOODS` - picks the set of possible responses (default: "helpful")
 
-All of these options can take a `/` separated list. Mommy will randomly select one of them whenever she talks to you~
+All of these options can take a `/` separated list. Rambley will randomly select one of them whenever he talks to you.
 
-For example, the phrase "mommy loves her little girl~ 💞" is "CARGO_MOMMYS_ROLE loves CARGO_MOMMYS_PRONOUNS little CARGO_MOMMYS_LITTLE~"
+For example, the phrase "Rambley thinks his little buddy earned a big hug!" is "CARGO_RAMBLEYS_ROLE thinks CARGO_RAMBLEYS_PRONOUNS little CARGO_RAMBLEYS_LITTLE earned a big hug!"
 
-So if you set `CARGO_MOMMYS_ROLES="daddy"`, `CARGO_MOMMYS_PRONOUNS="his/their"`, and `CARGO_MOMMYS_LITTLE="boy/pet/baby"` then you might get any of
+So if you set `CARGO_RAMBLEYS_ROLES="I"`, `CARGO_RAMBLEYS_PRONOUNS="my"`, and `CARGO_RAMBLEYS_LITTLE="buddy/guest/friend"` then you might get any of
 
-* daddy loves their little boy~ ❤️
-* daddy loves his little pet~
-* daddy loves their little baby~ 💗
+* I thinks my little buddy earned a big hug!
+* I thinks my little friend earned a big hug!
+* I thinks my little guest earned a big hug!
 
-And so on~ 💓
-
-
-
+And so on
 
 
 # Licensing
-mommy likes freedom~ ❤️, and is dual-licensed under [MIT](LICENSE-MIT) and [Apache 2.0](LICENSE-APACHE).
+Indigo Park supports open source communities. Dual-licensed under [MIT](LICENSE-MIT) and [Apache 2.0](LICENSE-APACHE).
 
 Use either at your choice.
