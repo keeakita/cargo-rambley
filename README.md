@@ -6,7 +6,7 @@ This is a fork of [cargo-mommy](https://faultlore.com/cargo-mommy/).
 
 # Installation
 
-`cargo install --git git@github.com:keeakita/cargo-rambley.git`
+`cargo install --git https://github.com/keeakita/cargo-rambley.git`
 
 
 # Usage
