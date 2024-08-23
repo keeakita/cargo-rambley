@@ -12,8 +12,8 @@ dependencies = [
 ]
 
 [[package]]
-name = "cargo-mommy"
-version = "0.3.1"
+name = "cargo-rambley"
+version = "0.4.0"
 dependencies = [
  "fastrand",
  "regex",

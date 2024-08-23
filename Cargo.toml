@@ -1,16 +1,14 @@
 [package]
-description = "Mommy's here to support you when running cargo~"
-repository = "https://github.com/Gankra/cargo-mommy"
+description = "Furry-bait mascot horror raccoon helps you code"
+repository = "https://github.com/keea/cargo-rambley" # TODO: publish it to github
 license = "MIT OR Apache-2.0"
-name = "cargo-mommy"
-version = "0.3.1"
+name = "cargo-rambley"
+version = "0.4.0"
 edition = "2021"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 [features]
-# This affects if a given response is *supported* in the built binary,
-# not if it's enabled by default
-default = ["thirsty", "yikes"]
+default = []
 
 thirsty = []
 yikes = []
@@ -32,15 +30,19 @@ pre-release-commit-message = "release: {{version}}"
 # Config for 'cargo dist'
 [workspace.metadata.dist]
 # The preferred cargo-dist version to use in CI (Cargo.toml SemVer syntax)
-cargo-dist-version = "0.4.3"
+cargo-dist-version = "0.21.1"
 # CI backends to support
-ci = ["github"]
+ci = "github"
 # The installers to generate for each app
 installers = ["shell", "powershell"]
 # Target platforms to build apps for (Rust target-triple syntax)
-targets = ["x86_64-unknown-linux-gnu", "aarch64-apple-darwin", "x86_64-apple-darwin", "x86_64-unknown-linux-musl", "x86_64-pc-windows-msvc"]
-# Publish jobs to run in CI
+targets = ["aarch64-apple-darwin", "x86_64-apple-darwin", "x86_64-unknown-linux-gnu", "x86_64-unknown-linux-musl", "x86_64-pc-windows-msvc"]
+# Which actions to run on pull requests
 pr-run-mode = "plan"
+# Path that installers should place binaries in
+install-path = "CARGO_HOME"
+# Whether to install an updater program
+install-updater = false
 
 # The profile that 'cargo dist' will build with
 [profile.dist]
