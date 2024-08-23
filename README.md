@@ -25,7 +25,7 @@ error: expected one of `!` or `::`, found `passes`
    |      ^^^^^^ expected one of `!` or `::`
 
 error: could not compile `bappy-script` (bin "bappy-script") due to previous error
-Now that's what I expect from a Rambley's Ranger! 🦝
+Come on buddy, I know you can do this! 🦝
 ```
 
 [There are upstream docs](https://faultlore.com/cargo-mommy/book/). Everything should be mostly the same, with some defaults changed.
@@ -33,7 +33,7 @@ Now that's what I expect from a Rambley's Ranger! 🦝
 
 # Configuration
 
-Rambley will read the following environment variables to you the best possible park experience:
+Rambley will read the following environment variables to give you the best possible park experience:
 
 * `CARGO_RAMBLEYS_LITTLE` - what to call you (default: "buddy")
 * `CARGO_RAMBLEYS_PRONOUNS` - what pronouns Rambley will use for themself (default: "his")
@@ -45,11 +45,11 @@ All of these options can take a `/` separated list. Rambley will randomly select
 
 For example, the phrase "Rambley thinks his little buddy earned a big hug!" is "CARGO_RAMBLEYS_ROLE thinks CARGO_RAMBLEYS_PRONOUNS little CARGO_RAMBLEYS_LITTLE earned a big hug!"
 
-So if you set `CARGO_RAMBLEYS_ROLES="I"`, `CARGO_RAMBLEYS_PRONOUNS="my"`, and `CARGO_RAMBLEYS_LITTLE="buddy/guest/friend"` then you might get any of
+So if you set `CARGO_RAMBLEYS_ROLES="Rambley Raccoon"`, `CARGO_RAMBLEYS_PRONOUNS="their"`, and `CARGO_RAMBLEYS_LITTLE="buddy/guest/friend"` then you might get any of
 
-* I thinks my little buddy earned a big hug!
-* I thinks my little friend earned a big hug!
-* I thinks my little guest earned a big hug!
+* Rambley Raccoon thinks their little buddy earned a big hug!
+* Rambley Raccoon thinks their little friend earned a big hug!
+* Rambley Raccoon thinks their little guest earned a big hug!
 
 And so on
 
