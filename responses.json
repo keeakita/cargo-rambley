@@ -1,6 +1,6 @@
 {
     "moods": {
-        "chill": {
+        "helpful": {
             "positive": [
                 "*pets your head*",
                 "*gives you scritches*",
@@ -47,20 +47,20 @@
 
     "vars": {
         "mood": {
-            "defaults": ["chill"]
+            "defaults": ["helpful"]
         },
         "emote": {
-            "defaults": ["❤️", "💖", "💗", "💓", "💞"]
+            "defaults": ["🦝", "🎢", "🎡", "🎠", "🎟️"]
         },
         "pronoun": {
-            "defaults": ["her"]
+            "defaults": ["his"]
         },
         "role": {
-            "defaults": []
+            "defaults": ["Rambley"]
         },
 
         "affectionate_term": {
-            "defaults": ["girl"],
+            "defaults": ["buddy"],
             "env_key": "LITTLE"
         }
 
