@@ -6,8 +6,7 @@ This is a fork of [cargo-mommy](https://faultlore.com/cargo-mommy/).
 
 # Installation
 
-TODO
-<!-- You can `cargo install cargo-mommy`, [see the website for more options](https://faultlore.com/cargo-mommy/) -->
+`cargo install --git git@github.com:keeakita/cargo-rambley.git`
 
 
 # Usage
